@@ -155,7 +155,7 @@ renameVitrine = function() {
 
 Rastreio = function() {
     $('body').append('<div class="modal fade hide" id="modalRastreio" aria-labelledby="meuModalLabel" aria-hidden="true" ><h3 id="meuModalLabel">Rastreamento de objetos</h3></div>');
-    $('#modalRastreio').append('<form id="formRastrearObj"><input id="rastrearObj" placeholder="Digite seu cÃ³digo de rastreio"><i class="fa fa-search" onclick="$(this).parent().submit()"></i><img src="//i.imgur.com/jH1Bc6k.gif"></form>');
+    $('#modalRastreio').append('<form id="formRastrearObj"><input id="rastrearObj" placeholder="Digite seu código de rastreio"><i class="fa fa-search" onclick="$(this).parent().submit()"></i><img src="//i.imgur.com/jH1Bc6k.gif"></form>');
     $('#formRastrearObj').on('submit', function(e) {
         e.preventDefault();
         var code = $('#rastrearObj').val();
@@ -165,7 +165,7 @@ Rastreio = function() {
                 $('#modalRastreio').html('<h3><div data-dismiss="modal"><i class="fa fa-times"></i></div> <i class="fa fa-truck"></i>' + code + '</h3><div class="modal-body"><table>' + $(r).find('.listEvent').clone().html() + '</table></div>');
                 $('#modalRastreio').modal();
             } else {
-                alert('CÃ³digo invalido');
+                alert('Código invalido');
             }
             $('#formRastrearObj').removeClass('loading');
         })
