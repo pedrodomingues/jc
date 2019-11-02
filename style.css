@@ -3727,7 +3727,7 @@ ul.bandeiras-pagamento {
         right: 26px;
         top: 18px;
         font-size: 15px;
-        background: #1a1b36;
+        background: #1a1b36 !important;
         width: 20px;
         height: 20px;
         line-height: 20px;
