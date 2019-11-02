@@ -129,7 +129,7 @@ newRodape = function() {
     $(".news-rodape").append($('.redes-sociais'));
     $('#rodape .contato').append(
         '<li class="complement">' +
-        '<li class="operation" id="operation""><strong>Horário de Atendimento:</strong><p>Seg a Sex de 08h Ã s 18h<br>Sábado de 08h Ã s 14h</p></li>' +
+        '<li class="operation" id="operation""><strong>Horário de Atendimento:</strong><p>Seg a Sex de 08h às 18h<br>Sábado de 08h às 14h</p></li>' +
         '<a class="atd-rodape" id="atd-rodape" href="#modalContato" data-toggle="modal" data-target="#modalContato">Fale conosco</a>' +
         '</li>'
         );
