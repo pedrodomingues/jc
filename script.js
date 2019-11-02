@@ -138,7 +138,7 @@ newRodape = function() {
 renameVitrine = function() {
     $('.listagem .vitrine-lancamento strong').each(function() {
         var txt;0
-        txt = $(this).text().replace('Lançamentos', 'Ãšltimos adicionados');
+        txt = $(this).text().replace('Lançamentos', 'Últimos adicionados');
         $(this).text(txt);
     }),
     $('.listagem .vitrine-mas-vendido strong').each(function() {
