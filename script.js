@@ -114,7 +114,7 @@ newRodape = function() {
         '<span class="titulo cor-secundaria">' +
         'Newsletter' +
         '</span>' +
-        '<p class="texto-newsletter newsletter-cadastro">Assine nossa newsletter e fique por dentro de todas novidades, lanÃ§amentos, promoÃ§Ãµes e muito mais.</p>' +
+        '<p class="texto-newsletter newsletter-cadastro">Assine nossa newsletter e fique por dentro de todas novidades, lanÃ§amentos, promoções e muito mais.</p>' +
         '<div class="interno-conteudo">' +
         '<div class="newsletter-cadastro input-conteiner">' +
         '<input type="text" placeholder="DIGITE SEU EMAIL" name="email">' +
