@@ -79,7 +79,7 @@
 }
 
 copyright = function() {
-    $('#rodape > div:last-child .row-fluid div:last-child a').addClass('loja-integrada-copyright'), $('#rodape > div:last-child .row-fluid > div:nth-child(2)').before('<div class="design-fox"></div>'), $('#rodape > div:last-child .row-fluid > div:nth-child(2)').before($('.loja-integrada-copyright')), $('a.loja-integrada-copyright').html('<img src="https://cdn.awsli.com.br/267/267860/arquivos/logo-lojaintegrada.png">'), $('#rodape .institucional .conteiner .row-fluid').find('.span9').addClass('span12').removeClass('span9'), $('#rodape .links-rodape.links-rodape-categorias').addClass('span3').removeClass('span4'), $('.span4.links-rodape.links-rodape-paginas').addClass('span2').removeClass('span4'), $('#rodape .pagamento').addClass('span8').removeClass('span4'), $('#rodape .selos').addClass('span4').removeClass('span4'), $("#rodape .span2:nth-child(2) .titulo").html("Institucional"), $("#rodape .span4.pagamento .titulo").html("Pague com"), $("#rodape .span4.selos .titulo").html("SeguranÃ§a"), $("#rodape .contato .titulo").html("Central de ajuda"), $('#rodape .span4:nth-child(2)').addClass('span3').removeClass('span4'),$("#rodape > div:last-child").addClass("assinatura-rodape");
+    $('#rodape > div:last-child .row-fluid div:last-child a').addClass('loja-integrada-copyright'), $('#rodape > div:last-child .row-fluid > div:nth-child(2)').before('<div class="design-fox"></div>'), $('#rodape > div:last-child .row-fluid > div:nth-child(2)').before($('.loja-integrada-copyright')), $('a.loja-integrada-copyright').html('<img src="https://cdn.awsli.com.br/267/267860/arquivos/logo-lojaintegrada.png">'), $('#rodape .institucional .conteiner .row-fluid').find('.span9').addClass('span12').removeClass('span9'), $('#rodape .links-rodape.links-rodape-categorias').addClass('span3').removeClass('span4'), $('.span4.links-rodape.links-rodape-paginas').addClass('span2').removeClass('span4'), $('#rodape .pagamento').addClass('span8').removeClass('span4'), $('#rodape .selos').addClass('span4').removeClass('span4'), $("#rodape .span2:nth-child(2) .titulo").html("Institucional"), $("#rodape .span4.pagamento .titulo").html("Pague com"), $("#rodape .span4.selos .titulo").html("Segurança"), $("#rodape .contato .titulo").html("Central de ajuda"), $('#rodape .span4:nth-child(2)').addClass('span3').removeClass('span4'),$("#rodape > div:last-child").addClass("assinatura-rodape");
 }
 
 newRodape = function() {
@@ -114,7 +114,7 @@ newRodape = function() {
         '<span class="titulo cor-secundaria">' +
         'Newsletter' +
         '</span>' +
-        '<p class="texto-newsletter newsletter-cadastro">Assine nossa newsletter e fique por dentro de todas novidades, lanÃ§amentos, promoções e muito mais.</p>' +
+        '<p class="texto-newsletter newsletter-cadastro">Assine nossa newsletter e fique por dentro de todas novidades, lançamentos, promoções e muito mais.</p>' +
         '<div class="interno-conteudo">' +
         '<div class="newsletter-cadastro input-conteiner">' +
         '<input type="text" placeholder="DIGITE SEU EMAIL" name="email">' +
@@ -138,7 +138,7 @@ newRodape = function() {
 renameVitrine = function() {
     $('.listagem .vitrine-lancamento strong').each(function() {
         var txt;0
-        txt = $(this).text().replace('LanÃ§amentos', 'Ãšltimos adicionados');
+        txt = $(this).text().replace('Lançamentos', 'Ãšltimos adicionados');
         $(this).text(txt);
     }),
     $('.listagem .vitrine-mas-vendido strong').each(function() {
